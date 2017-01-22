@@ -1,2 +1,2 @@
 # makeworthy-quote-slider
-Creates widget that displays rotating quotes. Requires Advanced Custom Fields be installed. Uses Slick slider by Ken Wheeler http://kenwheeler.github.io/slick
+WordPress plugin that creates a widget that displays rotating quotes.
