@@ -171,6 +171,7 @@ jQuery( document ).ready(function( $ ) {
 				<div class="mw-quote">
 					<span class="mw-quote-content"><?php echo the_content(); ?></span>
 					<?php if($author = get_field('mw_quote_author')) : ?><span class="mw-quote-author"><?php echo $author; ?></span><?php endif; ?>
+					<?php if($source = get_field('mw_quote_source')) : ?><span class="mw_quote_source"><?php echo $source; ?></span><?php endif; ?>
 				</div>
 			<?php endwhile;
 			echo '</div>';
